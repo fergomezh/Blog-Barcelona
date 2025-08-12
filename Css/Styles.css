@@ -475,31 +475,9 @@ footer {
 .gallery-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   border-radius: 8px;
 }
 .gallery-item:hover {
-  transform: scale(1.1);
-}
-.back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #a50044;
-  color: #fdb913;
-  padding: 10px 15px;
-  border-radius: 50%;
-  text-decoration: none;
-  font-size: 1.2em;
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-.back-to-top.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-.back-to-top:hover {
-  background: #fdb913;
-  color: #a50044;
   transform: scale(1.1);
 }
