@@ -217,7 +217,7 @@ footer {
   height: 28px;
   filter: brightness(0) invert(1);
 }
-.historia-ronaldinho {
+.historia {
   text-align: center;
   margin: 40px auto;
   max-width: 800px;
@@ -226,23 +226,23 @@ footer {
   border-radius: 16px;
   animation: fadeInSection 1.2s forwards;
 }
-.historia-ronaldinho img {
+.historia img {
   width: 100%;
   max-width: 400px;
   border-radius: 12px;
   margin-bottom: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.historia-ronaldinho img:hover {
+.historia img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 32px rgba(253, 185, 19, 0.18);
 }
-.historia-ronaldinho h2 {
+.historia h2 {
   color: #fdb913;
   font-size: 2em;
   margin-bottom: 15px;
 }
-.historia-ronaldinho p {
+.historia p {
   line-height: 1.7;
   margin-bottom: 15px;
 }
@@ -352,13 +352,13 @@ footer {
   .card {
     width: 90%;
   }
-  .historia-ronaldinho {
+  .historia {
     margin: 20px;
   }
-  .historia-ronaldinho img {
+  .historia img {
     max-width: 300px;
   }
-  .historia-ronaldinho h2 {
+  .historia h2 {
     font-size: 1.8em;
   }
 }
