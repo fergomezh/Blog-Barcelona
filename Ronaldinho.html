@@ -3,17 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Css/Styles.css" />
+    <link rel="stylesheet" href="/Css/Styles.css" />
     <title>Ronaldinho - FC Barcelona</title>
   </head>
   <body>
     <header class="header-animado">
-      <h1>Ronaldinho</h1>
-      <nav>
+      <div class="header-content">
+        <h1>Ronaldinho</h1>
+        <p class="header-subtitle">La Magia del Joga Bonito</p>
+      </div>
+      <nav class="sticky-nav">
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="Messi.html">Lionel Messi</a></li>
-          <li><a href="Ronaldinho.html">Ronaldinho</a></li>
+          <li><a href="Ronaldinho.html" class="active">Ronaldinho</a></li>
           <li><a href="Cruyff.html">Johan Cruyff</a></li>
         </ul>
       </nav>
@@ -27,99 +30,127 @@
         <a href="#biografia" class="hero-btn">Explorar Biografía</a>
       </div>
     </div>
-    <div class="historia" id="biografia">
-      <img src="Img/ronaldinho.jpg" alt="Ronaldinho" />
-      <h2>Ronaldinho: El Ícono del Fútbol</h2>
-      <p>
-        Ronaldinho, nacido el 21 de marzo de 1980 en Porto Alegre, Brasil, es
-        una de las figuras más carismáticas en la historia del FC Barcelona.
-        Llegó al club en 2003, en un momento en que el Barça buscaba recuperar
-        su grandeza tras años de resultados discretos. Con su estilo de juego
-        único, lleno de regates, creatividad y una sonrisa contagiosa,
-        Ronaldinho se convirtió rápidamente en un ídolo para los aficionados.
-      </p>
-      <p>
-        Bajo la dirección de Frank Rijkaard, Ronaldinho lideró al equipo a una
-        época dorada, conquistando títulos importantes y devolviendo la ilusión
-        al Camp Nou. Su habilidad para marcar goles espectaculares, como su
-        icónico gol contra el Chelsea en 2005, y sus asistencias precisas lo
-        convirtieron en un símbolo del "joga bonito".
-      </p>
-      <p>
-        Ronaldinho dejó el Barcelona en 2008, pero su impacto sigue vivo en la
-        memoria de los culés. Su alegría y pasión por el fútbol inspiraron a una
-        nueva generación, incluyendo a un joven Lionel Messi, quien compartió
-        vestuario con él.
-      </p>
-    </div>
-    <div class="quote">
-      <p>
-        "El fútbol es alegría, es libertad, es jugar con el corazón." <br />—
-        Ronaldinho
-      </p>
-      <cite>Ronaldinho, 2005</cite>
-    </div>
-    <div class="video-section">
-      <h3>Mejores Momentos de Ronaldinho</h3>
-      <iframe
-        src="https://www.youtube.com/embed/yDg4D4DLH78"
-        title="Ronaldinho Highlights"
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <div class="timeline">
-      <h3>Cronología de su Carrera en el Barça</h3>
-      <div class="timeline-item">
-        <h4>2003: Fichaje por el FC Barcelona</h4>
-        <p>
-          Ronaldinho llega desde el PSG y comienza a transformar al equipo con
-          su talento.
-        </p>
-      </div>
-      <div class="timeline-item">
-        <h4>2005: Balón de Oro</h4>
-        <p>
-          Gana el Balón de Oro tras una temporada espectacular, incluyendo un
-          memorable gol al Chelsea.
-        </p>
-      </div>
-      <div class="timeline-item">
-        <h4>2006: Campeón de la Champions</h4>
-        <p>
-          Lidera al Barça a la victoria en la Liga de Campeones contra el
-          Arsenal.
-        </p>
-      </div>
-    </div>
-    <div class="stats">
-      <h3>Logros Destacados</h3>
-      <ul>
-        <li>2 Ligas (2004-05, 2005-06)</li>
-        <li>1 Liga de Campeones (2005-06)</li>
-        <li>2 Supercopas de España (2005, 2006)</li>
-        <li>Balón de Oro 2005</li>
-        <li>94 goles y 71 asistencias en 207 partidos con el FC Barcelona</li>
-      </ul>
-    </div>
-    <div class="gallery">
-      <h3>Galería de Momentos Memorables</h3>
-      <div class="gallery-grid">
-        <div class="gallery-item">
-          <img src="Img/ronaldinho-goal.jpg" alt="Ronaldinho Goal" />
+    <div class="content-wrapper">
+      <main class="main-content">
+        <div class="historia-ronaldinho" id="biografia">
+          <img src="Img/ronaldinho.jpg" alt="Ronaldinho" />
+          <h2>Ronaldinho: El Ícono del Fútbol</h2>
+          <p>
+            Ronaldinho, nacido el 21 de marzo de 1980 en Porto Alegre, Brasil,
+            es una de las figuras más carismáticas en la historia del FC
+            Barcelona. Llegó al club en 2003, en un momento en que el Barça
+            buscaba recuperar su grandeza tras años de resultados discretos. Con
+            su estilo de juego único, lleno de regates, creatividad y una
+            sonrisa contagiosa, Ronaldinho se convirtió rápidamente en un ídolo
+            para los aficionados.
+          </p>
+          <p>
+            Bajo la dirección de Frank Rijkaard, Ronaldinho lideró al equipo a
+            una época dorada, conquistando títulos importantes y devolviendo la
+            ilusión al Camp Nou. Su habilidad para marcar goles espectaculares,
+            como su icónico gol contra el Chelsea en 2005, y sus asistencias
+            precisas lo convirtieron en un símbolo del "joga bonito".
+          </p>
+          <p>
+            Ronaldinho dejó el Barcelona en 2008, pero su impacto sigue vivo en
+            la memoria de los culés. Su alegría y pasión por el fútbol
+            inspiraron a una nueva generación, incluyendo a un joven Lionel
+            Messi, quien compartió vestuario con él.
+          </p>
         </div>
-        <div class="gallery-item">
-          <img
-            src="Img/ronaldinho-celebtration.jpg"
-            alt="Ronaldinho Celebration"
-          />
+        <div class="quote">
+          <p>
+            "El fútbol es alegría, es libertad, es jugar con el corazón."
+            <br />— Ronaldinho
+          </p>
+          <cite>Ronaldinho, 2005</cite>
         </div>
-        <div class="gallery-item">
-          <img src="Img/ronaldinho-dribble.jpg" alt="Ronaldinho Dribble" />
+        <div class="video-section">
+          <h3>Mejores Momentos de Ronaldinho</h3>
+          <iframe
+            src="https://www.youtube.com/embed/yDg4D4DLH78"
+            title="Ronaldinho Highlights"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
         </div>
-      </div>
+        <div class="timeline">
+          <h3>Cronología de su Carrera en el Barça</h3>
+          <div class="timeline-item">
+            <h4>2003: Fichaje por el FC Barcelona</h4>
+            <p>
+              Ronaldinho llega desde el PSG y comienza a transformar al equipo
+              con su talento.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h4>2005: Balón de Oro</h4>
+            <p>
+              Gana el Balón de Oro tras una temporada espectacular, incluyendo
+              un memorable gol al Chelsea.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h4>2006: Campeón de la Champions</h4>
+            <p>
+              Lidera al Barça a la victoria en la Liga de Campeones contra el
+              Arsenal.
+            </p>
+          </div>
+        </div>
+        <div class="stats">
+          <h3>Logros Destacados</h3>
+          <ul>
+            <li>2 Ligas (2004-05, 2005-06)</li>
+            <li>1 Liga de Campeones (2005-06)</li>
+            <li>2 Supercopas de España (2005, 2006)</li>
+            <li>Balón de Oro 2005</li>
+            <li>
+              94 goles y 71 asistencias en 207 partidos con el FC Barcelona
+            </li>
+          </ul>
+        </div>
+        <div class="gallery">
+          <h3>Galería de Momentos Memorables</h3>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="Img/ronaldinho-goal.jpg" alt="Ronaldinho Goal" />
+            </div>
+            <div class="gallery-item">
+              <img
+                src="Img/ronaldinho-celebtration.jpg"
+                alt="Ronaldinho Celebration"
+              />
+            </div>
+            <div class="gallery-item">
+              <img src="Img/ronaldinho-dribble.jpg" alt="Ronaldinho Dribble" />
+            </div>
+          </div>
+        </div>
+        <a href="index.html" class="back-btn">Volver al Inicio</a>
+      </main>
+      <aside class="sidebar">
+        <h3>Otros Jugadores</h3>
+        <div class="sidebar-card">
+          <img src="Img/numero1.jpg" alt="Lionel Messi" />
+          <h4>Lionel Messi</h4>
+          <p>Uno de los mejores jugadores de la historia del Barcelona.</p>
+          <p>
+            Máximo goleador y asistente del club, ganador de múltiples Balones
+            de Oro.
+          </p>
+          <a href="Messi.html">Leer más</a>
+        </div>
+        <div class="sidebar-card">
+          <img src="Img/johan cruyff.jpg" alt="Johan Cruyff" />
+          <h4>Johan Cruyff</h4>
+          <p>
+            El arquitecto del futbol y una leyenda eterna para el Barcelona.
+          </p>
+          <a href="Cruyff.html">Leer más</a>
+        </div>
+      </aside>
     </div>
-    <a href="index.html" class="back-btn">Volver al Inicio</a>
     <footer>
       <p>© 2025 FC Barcelona Blog | Hecho con ❤️ por fans del Barça</p>
       <div class="footer-social">

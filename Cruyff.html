@@ -3,18 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Css/Styles.css" />
+    <link rel="stylesheet" href="/Css/Styles.css" />
     <title>Johan Cruyff - FC Barcelona</title>
   </head>
   <body>
     <header class="header-animado">
-      <h1>Johan Cruyff</h1>
-      <nav>
+      <div class="header-content">
+        <h1>Johan Cruyff</h1>
+        <p class="header-subtitle">El Profeta del Gol</p>
+      </div>
+      <nav class="sticky-nav">
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="Messi.html" target="_blank">Lionel Messi</a></li>
-          <li><a href="Ronaldinho.html" target="_blank">Ronaldinho</a></li>
-          <li><a href="Cruyff.html" target="_blank">Johan Cruyff</a></li>
+          <li><a href="Messi.html">Lionel Messi</a></li>
+          <li><a href="Ronaldinho.html">Ronaldinho</a></li>
+          <li><a href="Cruyff.html" class="active">Johan Cruyff</a></li>
         </ul>
       </nav>
     </header>
@@ -27,108 +30,125 @@
         <a href="#biografia" class="hero-btn">Explorar Biografía</a>
       </div>
     </div>
-    <div class="historia" id="biografia">
-      <img
-        src="https://img1.wsimg.com/isteam/ip/88c116bd-53b8-4c9f-bc9f-698ecb791258/Johan-Barca-action.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280"
-        alt="Johan Cruyff"
-      />
-      <h2>Johan Cruyff: El Arquitecto del Fútbol</h2>
-      <p>
-        Johan Cruyff, nacido el 25 de abril de 1947 en Ámsterdam, Países Bajos,
-        es una figura icónica en la historia del FC Barcelona, tanto como
-        jugador como entrenador. Llegó al club en 1973 y revolucionó el equipo
-        con su visión de juego y liderazgo, llevando al Barça a ganar La Liga en
-        su primera temporada tras 14 años de sequía.
-      </p>
-      <p>
-        Como entrenador, Cruyff regresó en 1988 y creó el legendario "Dream
-        Team", que implementó el estilo de fútbol total que se convirtió en la
-        base del juego moderno del Barça. Su filosofía de posesión, movimiento y
-        creatividad sigue siendo la piedra angular de La Masía y del club.
-      </p>
-      <p>
-        Cruyff falleció en 2016, pero su legado perdura en cada pase, cada gol y
-        cada victoria del FC Barcelona. Su influencia trasciende el fútbol,
-        siendo un símbolo de innovación y excelencia.
-      </p>
-    </div>
-    <div class="quote">
-      <p>
-        "Salid y disfrutad. El fútbol es para divertirse." <br />— Johan Cruyff
-      </p>
-      <cite>Cruyff, 1988</cite>
-    </div>
-    <div class="video-section">
-      <h3>Mejores jugadas de Johan</h3>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/9He8sPYUjmk?si=ZlYP1ksT8WTIB5lI"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <div class="timeline">
-      <h3>Cronología de su Carrera en el Barça</h3>
-      <div class="timeline-item">
-        <h4>1973: Fichaje Histórico</h4>
-        <p>
-          Cruyff firma por el FC Barcelona procedente del Ajax, siendo el
-          traspaso más caro de la época.
-        </p>
-      </div>
-      <div class="timeline-item">
-        <h4>1974: Liga y Goleada Histórica</h4>
-        <p>
-          Lidera al equipo para conquistar la Liga y logra un 5-0 en el Santiago
-          Bernabéu.
-        </p>
-      </div>
-      <div class="timeline-item">
-        <h4>1988-1996: Etapa como Entrenador</h4>
-        <p>
-          Crea el “Dream Team” y gana la primera Copa de Europa del club en
-          1992, además de 4 Ligas consecutivas.
-        </p>
-      </div>
-    </div>
-    <div class="stats">
-      <h3>Logros Destacados</h3>
-      <ul>
-        <li>Como jugador: 1 Liga (1973-74), 1 Copa del Rey (1977-78)</li>
-        <li>Como entrenador: 4 Ligas (1990-91, 1991-92, 1992-93, 1993-94)</li>
-        <li>1 Liga de Campeones (1991-92)</li>
-        <li>3 Balones de Oro (1971, 1973, 1974)</li>
-        <li>Introdujo el "fútbol total" en el FC Barcelona</li>
-      </ul>
-    </div>
-    <div class="gallery">
-      <h3>Galería de Momentos Memorables</h3>
-      <div class="gallery-grid">
-        <div class="gallery-item">
+    <div class="content-wrapper">
+      <main class="main-content">
+        <div class="historia-cruyff" id="biografia">
           <img
-            src="https://www.fcbarcelona.com/fcbarcelona/photo/2018/03/19/cec478f4-8caf-4e74-9782-3a69bfd42bff/20489661.jpg"
-            alt="El Gol imposible de Johan"
+            src="https://img1.wsimg.com/isteam/ip/88c116bd-53b8-4c9f-bc9f-698ecb791258/Johan-Barca-action.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280"
+            alt="Johan Cruyff"
           />
+          <h2>Johan Cruyff: El Arquitecto del Fútbol</h2>
+          <p>
+            Johan Cruyff, nacido el 25 de abril de 1947 en Ámsterdam, Países
+            Bajos, es una figura icónica en la historia del FC Barcelona, tanto
+            como jugador como entrenador. Llegó al club en 1973 y revolucionó el
+            equipo con su visión de juego y liderazgo, llevando al Barça a ganar
+            La Liga en su primera temporada tras 14 años de sequía.
+          </p>
+          <p>
+            Como entrenador, Cruyff regresó en 1988 y creó el legendario "Dream
+            Team", que implementó el estilo de fútbol total que se convirtió en
+            la base del juego moderno del Barça. Su filosofía de posesión,
+            movimiento y creatividad sigue siendo la piedra angular de La Masía
+            y del club.
+          </p>
+          <p>
+            Cruyff falleció en 2016, pero su legado perdura en cada pase, cada
+            gol y cada victoria del FC Barcelona. Su influencia trasciende el
+            fútbol, siendo un símbolo de innovación y excelencia.
+          </p>
         </div>
-        <div class="gallery-item">
-          <img
-            src="https://www.sportball.es/wp-content/uploads/2017/05/Johan-Cruyff-balon-de-Oro-1974-450x282.jpg"
-            alt="Johan Cruyff Balón de Oro 1974"
-          />
+        <div class="quote">
+          <p>
+            "Salid y disfrutad. El fútbol es para divertirse." <br />— Johan
+            Cruyff
+          </p>
+          <cite>Cruyff, 1988</cite>
         </div>
-        <div class="gallery-item">
-          <img
-            src="https://www.sportball.es/wp-content/uploads/2017/05/Barcelona-Copa-de-Europa-1992-cruyff-450x300.jpg"
-            alt="Johan Cruyff Copa de Europa 1992"
-          />
+        <div class="video-section">
+          <h3>Mejores jugadas de Johan</h3>
+          <iframe
+            src="https://www.youtube.com/embed/9He8sPYUjmk?si=ZlYP1ksT8WTIB5lI"
+            title="Johan Cruyff Highlights"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
         </div>
-      </div>
+        <div class="timeline">
+          <h3>Cronología de su Carrera en el Barça</h3>
+          <div class="timeline-item">
+            <h4>1973: Fichaje Histórico</h4>
+            <p>
+              Cruyff firma por el FC Barcelona procedente del Ajax, siendo el
+              traspaso más caro de la época.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h4>1974: Liga y Goleada Histórica</h4>
+            <p>
+              Lidera al equipo para conquistar la Liga y logra un 5-0 en el
+              Santiago Bernabéu.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h4>1988-1996: Etapa como Entrenador</h4>
+            <p>
+              Crea el “Dream Team” y gana la primera Copa de Europa del club en
+              1992, además de 4 Ligas consecutivas.
+            </p>
+          </div>
+        </div>
+        <div class="stats">
+          <h3>Logros Destacados</h3>
+          <ul>
+            <li>Como jugador: 1 Liga (1973-74), 1 Copa del Rey (1977-78)</li>
+            <li>
+              Como entrenador: 4 Ligas (1990-91, 1991-92, 1992-93, 1993-94)
+            </li>
+            <li>1 Liga de Campeones (1991-92)</li>
+            <li>3 Balones de Oro (1971, 1973, 1974)</li>
+            <li>Introdujo el "fútbol total" en el FC Barcelona</li>
+          </ul>
+        </div>
+        <div class="gallery">
+          <h3>Galería de Momentos Memorables</h3>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img
+                src="https://www.fcbarcelona.com/fcbarcelona/photo/2018/03/19/cec478f4-8caf-4e74-9782-3a69bfd42bff/20489661.jpg"
+                alt="El Gol imposible de Johan"
+              />
+            </div>
+            <div class="gallery-item">
+              <img
+                src="https://www.sportball.es/wp-content/uploads/2017/05/Johan-Cruyff-balon-de-Oro-1974-450x282.jpg"
+                alt="Johan Cruyff Balón de Oro 1974"
+              />
+            </div>
+            <div class="gallery-item">
+              <img
+                src="https://www.sportball.es/wp-content/uploads/2017/05/Barcelona-Copa-de-Europa-1992-cruyff-450x300.jpg"
+                alt="Johan Cruyff Copa de Europa 1992"
+              />
+            </div>
+          </div>
+        </div>
+        <a href="index.html" class="back-btn">Volver al Inicio</a>
+      </main>
+      <aside class="sidebar">
+        <h3>Otros Jugadores</h3>
+        <div class="sidebar-card">
+          <img src="Img/numero1.jpg" alt="Lionel Messi" />
+          <h4>Lionel Messi</h4>
+          <a href="Messi.html">Leer más</a>
+        </div>
+        <div class="sidebar-card">
+          <img src="Img/ronal.jpg" alt="Ronaldinho" />
+          <h4>Ronaldinho</h4>
+          <a href="Ronaldinho.html">Leer más</a>
+        </div>
+      </aside>
     </div>
-    <a href="index.html" class="back-btn">Volver al Inicio</a>
     <footer>
       <p>© 2025 FC Barcelona Blog | Hecho con ❤️ por fans del Barça</p>
       <div class="footer-social">
