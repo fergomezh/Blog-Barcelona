@@ -469,9 +469,9 @@ footer {
 }
 
 .sidebar-card p {
-  font-size: 1em; /* Antes: 0.85em */
-  line-height: 1.5; /* Mejor legibilidad */
-  margin-bottom: 8px;
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 18px;
 }
 
 .sidebar-card img {
